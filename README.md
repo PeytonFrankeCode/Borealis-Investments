@@ -1,8 +1,9 @@
 # Borealis Investments
 
-Marketing site for Borealis Investments — an independent, fiduciary registered
-investment adviser. Built as a single, self-contained `index.html` (no build
-step, no dependencies) using Google Fonts and inline CSS/JS.
+Informational site for Borealis Investments — an independent, privately held
+investment firm led by Jarrid and Norm Franke. Built as a single,
+self-contained `index.html` (no build step, no dependencies) using Google Fonts
+and inline CSS/JS.
 
 ## Run locally
 
@@ -20,5 +21,10 @@ from `index.html`.
 
 ## Notes
 
-Figures (AUM, CRD number, team count) are illustrative placeholders pending
-verified data.
+The site states only verified facts about the firm and its principals. It makes
+no regulatory claims: Borealis is **not** a registered investment adviser, so
+the site contains no SEC/CRD/Form ADV/fiduciary/AUM claims.
+
+Remaining placeholders to fill in: the "What we focus on" section, and real
+contact details (email, phone, address). Before soliciting any investment,
+consult a securities attorney about adviser-registration requirements.
