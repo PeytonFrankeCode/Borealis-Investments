@@ -16,6 +16,9 @@ dark tiles. Basin markers are defined in the inline `<script>` at the bottom of
 The site makes no regulatory claims: Borealis is **not** a registered investment
 adviser, and the footer disclaimer reflects that.
 
-Placeholders to fill in: real contact email, and confirmation of the actual
-basin positions shown on the map. Before soliciting any investment, consult a
-securities attorney about registration requirements.
+The logo is `assets/borealis-logo.png`. The site is deployed to GitHub Pages
+via `.github/workflows/pages.yml` on every push to the default branch.
+
+Placeholder to confirm: the actual basin positions shown on the map. Before
+soliciting any investment, consult a securities attorney about registration
+requirements.
