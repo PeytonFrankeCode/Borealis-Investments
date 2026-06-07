@@ -1,30 +1,21 @@
 # Borealis Investments
 
-Informational site for Borealis Investments — an independent, privately held
-investment firm led by Jarrid and Norm Franke. Built as a single,
-self-contained `index.html` (no build step, no dependencies) using Google Fonts
-and inline CSS/JS.
+Informational site for Borealis Investments — an independent investor in
+**upstream oil & gas** producing assets across North American basins. Built as a
+single, self-contained `index.html` (no build step) using Google Fonts, inline
+CSS/JS, and Leaflet for the investments map.
 
-## Run locally
+## Map
 
-Open `index.html` directly in a browser, or serve the folder:
-
-```bash
-python3 -m http.server 8000
-# then visit http://localhost:8000
-```
-
-## Deploy (GitHub Pages)
-
-Settings → Pages → deploy from this branch's root. The site is served straight
-from `index.html`.
+The "current investments" map uses [Leaflet](https://leafletjs.com/) with CARTO
+dark tiles. Basin markers are defined in the inline `<script>` at the bottom of
+`index.html` (the `assets` array) — edit that to change locations.
 
 ## Notes
 
-The site states only verified facts about the firm and its principals. It makes
-no regulatory claims: Borealis is **not** a registered investment adviser, so
-the site contains no SEC/CRD/Form ADV/fiduciary/AUM claims.
+The site makes no regulatory claims: Borealis is **not** a registered investment
+adviser, and the footer disclaimer reflects that.
 
-Remaining placeholders to fill in: the "What we focus on" section, and real
-contact details (email, phone, address). Before soliciting any investment,
-consult a securities attorney about adviser-registration requirements.
+Placeholders to fill in: real contact email, and confirmation of the actual
+basin positions shown on the map. Before soliciting any investment, consult a
+securities attorney about registration requirements.
